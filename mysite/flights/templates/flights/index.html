@@ -8,5 +8,12 @@
 </head>
 <body>
 <h1>this is django</h1>
+<ul>
+    {%for flight in flights %}
+    <li>
+        {{flight}}
+    </li>
+    {% endfor %}
+</ul>
 </body>
 </html>
