@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flights</title>
+
+
+</head>
+<body>
+<h1>this is django</h1>
+<ul>
+
+    <li>
+        flight:{{flights.id}}
+    </li>
+  <li>
+        origin:{{flights.origin}}
+    </li>
+    <li>
+        Destination:{{flights.destination}}
+    </li>
+    </ul>
+
+<a href="{% url 'index' %}">back</a>
+</body>
+</html>
